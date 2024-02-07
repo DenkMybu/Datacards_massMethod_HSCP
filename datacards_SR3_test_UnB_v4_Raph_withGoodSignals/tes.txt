@@ -1,0 +1,16 @@
+imax 1 
+jmax 1 
+kmax * 
+shapes * * FAKE 
+--------------- 
+--------------- 
+bin 	  Ch2017
+observation 	 0.0 
+------------------------------ 
+bin 	 Ch2017 	 Ch2017
+process 	 signal 	 bkg
+process 	 0 	 1 	 	 
+rate 	 6000	 0.2
+------------------------------ 
+bkg_test 	 lnN 	 - 	 1
+sig_test         lnN     0.999991/1.0000001 -

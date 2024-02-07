@@ -1,0 +1,38 @@
+imax 2 
+jmax 1 
+kmax * 
+shapes * * FAKE 
+--------------- 
+--------------- 
+bin 	  Ch2017 	 Ch2018 
+observation 	 0.0 	 0.0 
+------------------------------ 
+bin 	 Ch2017 	 Ch2017 	 Ch2018 	 Ch2018 
+process 	 signal 	 bkg 	 signal 	 bkg 
+process 	 0 	 1 	 0 	 1 	 
+rate 	 0.142483333914 	 0.000954863625871 	 0.204970000836 	 0.00317077463853 
+------------------------------ 
+sig2017_Fpix 	 lnN 	 1.0/1.0 	 - 	 - 	 - 
+sig2017_K 	 lnN 	 1.00627715881/0.992434181582 	 - 	 - 	 - 
+sig2017_C 	 lnN 	 1.00059941214/0.999307757856 	 - 	 - 	 - 
+sig2017_Gstrip 	 lnN 	 1.0/1.0 	 - 	 - 	 - 
+sig2017_Pt 	 lnN 	 1.0/1.0 	 - 	 - 	 - 
+sig2018_Fpix 	 lnN 	 - 	 - 	 1.0/1.0 	 - 
+sig2018_Gstrip 	 lnN 	 - 	 - 	 1.0/1.0 	 - 
+sig2018_K 	 lnN 	 - 	 - 	 1.00627715881/0.992434181582 	 - 
+sig2018_C 	 lnN 	 - 	 - 	 1.00059941214/0.999307757856 	 - 
+sig2018_Pt 	 lnN 	 - 	 - 	 1.0/1.0 	 - 
+sig_pu 	 lnN 	 0.997296303708/1.00186112656 	 - 	 0.997296303708/1.00186112656 	 - 
+sig_Trigger 	 lnN 	 0.988590847836/1.00153128224 	 - 	 0.988590847836/1.00153128224 	 - 
+bkg2017_fitIh 	 lnN 	 -  	 1.00839709448 	 - 	 - 
+bkg2017_fitMom 	 lnN 	 -  	 1.00044874369 	 - 	 - 
+bkg2017_stat 	 lnN 	 -  	 1.034136151 	 - 	 - 
+bkg2018_fitIh 	 lnN 	 - 	 - 	 - 	 1.00619860483 
+bkg2018_fitMom 	 lnN 	 - 	 - 	 - 	 1.00008987569 
+bkg2018_stat 	 lnN 	 - 	 - 	 - 	 1.02737436894 
+bkg_correctionTemplateIh 	 lnN 	 - 	 1.03695337513 	 - 	 1.03893800706 
+bkg_momentumBinning 	 lnN 	 - 	 1.07165396627 	 - 	 1.05472836461 
+bkg_ihBinning 	 lnN 	 - 	 1.00301416166 	 - 	 1.00463076315 
+bkg_etaBinning 	 lnN 	 - 	 1.01021258506 	 - 	 1.01683261159 
+bkg_correctionBias 	 lnN 	 - 	 1.54512948375 	 - 	 2.75426084284 
+bkg_correctionTemplateMomentum 	 lnN 	 - 	 1.01066463823 	 - 	 1.009849201 
