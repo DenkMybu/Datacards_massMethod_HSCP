@@ -10,7 +10,7 @@ observation 	 0.0 	 0.0
 bin 	 Ch2017 	 Ch2017 	 Ch2018 	 Ch2018 
 process 	 signal 	 bkg 	 signal 	 bkg 
 process 	 0 	 1 	 0 	 1 	 
-rate 	 20.4187024475 	 0.00490358647073 	 29.3734105087 	 0.0137663482283 
+rate 	 20.4187024475 	 0.00490481785607 	 29.3734105087 	 0.0137677048019 
 ------------------------------ 
 sig2017_Fpix 	 lnN 	 1.0/0.99981722057 	 - 	 - 	 - 
 sig2017_K 	 lnN 	 1.0064511787/0.990679457287 	 - 	 - 	 - 
@@ -24,15 +24,16 @@ sig2018_C 	 lnN 	 - 	 - 	 1.00192554952/0.996825653706 	 -
 sig2018_Pt 	 lnN 	 - 	 - 	 1.0/1.0 	 - 
 sig_pu 	 lnN 	 0.995278782414/1.00445426023 	 - 	 0.995278782414/1.00445426023 	 - 
 sig_Trigger 	 lnN 	 0.788773414552/1.20551956298 	 - 	 0.788773414552/1.20551956298 	 - 
-bkg2017_fitIh 	 lnN 	 -  	 1.00715006564 	 - 	 - 
-bkg2017_fitMom 	 lnN 	 -  	 1.00044773722 	 - 	 - 
-bkg2017_stat 	 lnN 	 -  	 1.03368166248 	 - 	 - 
-bkg2018_fitIh 	 lnN 	 - 	 - 	 - 	 1.00539700978 
-bkg2018_fitMom 	 lnN 	 - 	 - 	 - 	 1.0000922614 
-bkg2018_stat 	 lnN 	 - 	 - 	 - 	 1.02708242243 
-bkg_correctionTemplateIh 	 lnN 	 - 	 1.03666677397 	 - 	 1.03867054034 
-bkg_momentumBinning 	 lnN 	 - 	 1.12844192846 	 - 	 1.12420119374 
-bkg_ihBinning 	 lnN 	 - 	 1.00257085342 	 - 	 1.00194236714 
-bkg_etaBinning 	 lnN 	 - 	 1.01039069988 	 - 	 1.01682056329 
-bkg_correctionBias 	 lnN 	 - 	 1.43038142617 	 - 	 2.36485414789 
-bkg_correctionTemplateMomentum 	 lnN 	 - 	 1.01062622019 	 - 	 1.00983930779 
+sig_lumi 	 lnN 	 1.016 	 - 	 1.016 	 - 
+bkg2017_fitIh 	 lnN 	 -  	 1.00739932686 	 - 	 - 
+bkg2017_fitMom 	 lnN 	 -  	 1.00034278633 	 - 	 - 
+bkg2017_stat 	 lnN 	 -  	 1.03345008886 	 - 	 - 
+bkg2018_fitIh 	 lnN 	 - 	 - 	 - 	 1.00549501103 
+bkg2018_fitMom 	 lnN 	 - 	 - 	 - 	 1.00019078534 
+bkg2018_stat 	 lnN 	 - 	 - 	 - 	 1.0271274801 
+bkg_correctionTemplateIh 	 lnN 	 - 	 1.03640651226 	 - 	 1.03856819699 
+bkg_momentumBinning 	 lnN 	 - 	 1.12815862603 	 - 	 1.1240904228 
+bkg_ihBinning 	 lnN 	 - 	 1.00261823063 	 - 	 1.00184364273 
+bkg_etaBinning 	 lnN 	 - 	 1.01063914751 	 - 	 1.01691743894 
+bkg_correctionBias 	 lnN 	 - 	 1.43038165599 	 - 	 2.3648545687 
+bkg_correctionTemplateMomentum 	 lnN 	 - 	 1.01037249613 	 - 	 1.00973980527 
